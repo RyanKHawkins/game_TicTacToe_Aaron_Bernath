@@ -19,9 +19,9 @@ current_player = "X"
 
 def display_board():
     print()
-    print(" | ".join(board[0:3]))
-    print(" | ".join(board[3:6]))
-    print(" | ".join(board[6:9]))
+    print(" | ".join(board[0:3]),"      1 | 2 | 3")
+    print(" | ".join(board[3:6]),"      4 | 5 | 6")
+    print(" | ".join(board[6:9]),"      7 | 8 | 9")
     print()
 
 
